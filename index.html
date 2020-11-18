@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cake poem</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="https://favicon.io/assets/static/64x64.524cd33.078741a5177a519bc6ca51b4ae244cbb.png"/>
+    </head>
+    <body>
+    <h1 id="yeahboi">Sadness lol</h1>
+    <p onmousedown="this.style.color = 'red'" onmouseup ="this.style.color = 'black'" ontouchstart="this.style.color = 'blue'" ontouchend="this.style.color = 'black'">
+    I like eating cake<br>
+    But it hurts my stomach<br>
+    Because I have lactose<br>
+    Intolerance. sadness time<br>
+    also click on the picture below for a nice surprise ;)<br>
+    another thing, if you click on the poem it changes color<br>
+    but if you use a touchscreen to click it, it changes to a different color<br>
+    cool right?
+    </p>
+    <p>you can type a color below (red, blue, yellow, etc.) or use a specific value ("rgb(196, 85, 196)", "hsl(300, 48%, 55%)", or "#c455c4") click <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">here</a> for a complete list of color names or click <a href="https://www.w3schools.com/colors/colors_picker.asp">here</a> for a color picker</p>
+    <input placeholder="type in a color and look at title" id="yes" type="text" oninput="colorChange();">
+    <img src="https://www.kasandbox.org/programming-images/food/cake.png" onclick="alert('bazinga lol')">
+    <script>function colorChange() {
+        var input = document.getElementById("yes").value
+        document.getElementById("yeahboi").style.color = input
+        
+    }    
+    </script>
+    </body>
+</html>
